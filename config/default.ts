@@ -5,6 +5,7 @@ export default {
   saltWorkFactor: 10,
   accessTokenTtl: '15m',
   refreshTokenTtl: '1y',
+  // yeah these shouldn't be here, but this isn't a production project
   publicKey: `-----BEGIN PUBLIC KEY-----
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCeqwC8R1QgGBQqugwTROgYI4kt
 Oo6n2KZpwDKU8/mIHpBjSabeDMxRpeCvhTryFlhJgqQfdy2r3Y8maiO22NyuwztO
