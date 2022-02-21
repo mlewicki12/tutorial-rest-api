@@ -10,7 +10,7 @@ export const createUserSchema = object({
       required_error: 'password is required'
     }).min(6, 'password too short - should be at least 6 characters'),
     passwordConfirmation: string({
-      required_error: 'password confirmation is required'
+      required_error: 'passwordConfirmation is required'
     }),
     email: string({
       required_error: 'email is required'
